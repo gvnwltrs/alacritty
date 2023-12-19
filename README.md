@@ -10,6 +10,6 @@ cd ~/.config
 mv alacritty alacritty.bkup
 
 git clone https://github.com/gvnwltrs/alacritty.git
-
 ### after initial commit
+
 git config credential.helper store
