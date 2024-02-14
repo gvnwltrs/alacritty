@@ -1,0 +1,80 @@
+#checkout https://alacritty.org/config-alacritty.html
+
+#### GENERAL ####
+import = [
+	"~/.config/alacritty/themes/themes/solarized_dark.toml"
+]
+
+#[shell]
+#program = "/usr/bin/fish"
+#args = ['--login']
+
+#working_directory = 
+
+#live_config_reload = 
+
+# ipc_socket = true
+
+#### ENV #### 
+# [env]
+
+#### WINDOW ####
+#[window.dimensions]
+#columns = 90
+#lines = 25
+
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 0.8
+
+[window.padding]
+x = 6
+y = 0
+
+#### SCROLLING ####
+
+#### FONT ####
+#[font.normal]
+#family = "RobotoMono Nerd Font"
+
+[font]
+size = 16.0
+
+#### COLORS ####
+#[colors.normal]
+#black = "#21222c"
+#red = "#ff5555"
+#green = "#50fa7b"
+#yellow = "#f1fa8c"
+#blue = "#bd93f9"
+#magenta = "#ff79c6"
+#cyan = "#8be9fd"
+#white = "#f8f8f2"
+#
+#[colors.primary]
+#background = "#282a36"
+#foreground = "#f8f8f2"
+
+#[colors.cursor]
+#text = "CellBackground"
+#cursor = "CellForeground"
+
+#### BELL #### 
+
+#### SELECTION ####
+
+#### CURSOR ####
+[cursor]
+style = "Beam"
+
+#### TERMINAL ####
+
+#### MOUSE ####
+
+#### HINTS ####
+
+#### KEYBOARD ####
+
+#### DEBUG ####
+
